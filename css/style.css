@@ -1,0 +1,274 @@
+/*===================
+    COMMON CSS 
+====================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*===================
+    HEADER START
+====================*/
+header{
+    background-color: #121B2A;
+    padding: 10px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 10px 15px 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px; 
+    display: block;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: #0177BD;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/*===================
+    HEADER END
+====================*/
+
+/*===================
+    BANNER START
+====================*/
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-content{
+    width: 45%;
+    font-family: sans-serif;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.banner-content h3{
+    margin: 0;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-content h1{
+    color: #121B2C;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.banner-content p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    word-spacing: 1px;
+    line-height: 26px;
+}
+.banner-content button{
+    color: #5A5A5A;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius: 2px;
+
+}
+/*===================
+    BANNER END
+====================*/
+
+/*===================
+    SERVICE START
+====================*/
+.service {
+    background-color: #121B2C;
+    padding: 60px 0;
+}
+.single {
+    width: 28%;
+    float: left;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border-right: 1px solid #1A2430;
+    margin-right: 24px;
+}
+.single:last-child{
+    border-right: 0;
+    margin-right: 0;
+}
+.service-title {
+    overflow: hidden;
+}
+
+.icon {
+    width: 25%;
+    float: left;
+}
+.icon img{
+    width: 100%;
+}
+.icon-content {
+    width: 65%;
+    float: left;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.icon-content h1{
+    margin: 0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 22px;
+}
+.icon-content h2{
+    margin: 0;
+    color: #0178BC;
+    font-weight: 700;
+    font-size: 26px;
+}
+.service-content p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+/*===================
+    Testimonial start
+====================*/
+.testimonial{
+    background-color: #040811;
+    padding: 60px 0;
+}
+.single-item{
+    width: 30%;
+    float: left;
+    margin-right: 45px;
+    overflow: hidden;
+
+}
+.single-item:last-child{
+    margin-right: 0;
+}
+.single-title{
+    background-color: #0C1019;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.single-title h2{
+    color: #0274BA;
+    margin: 0;
+    font-size: 22px;
+}
+.single-title p{
+    color: #ffffff;
+    font-size: 14px;
+}
+.site-link{
+    margin-top: 25px;
+}
+.site-link h4{
+    margin: 0;
+    color: #ffffff;
+}
+.site-link p{
+    color: #ffffff;
+    margin: 5px 0;
+}
+.testimonial-img{
+    width: 40%;
+    float: left;
+}
+.t-content{
+    width: 45;
+    float: left;
+    margin-left: 15px;
+}
+.t-content h1{
+    color: #ffffff;
+    margin: 10px 0;
+}
+.t-content h2{
+    color: #0075B8;
+    margin: 0;
+}
+.t-content p{
+    color: #ffffff;
+}
+/*===================
+    Testimonial End
+====================*/
+
+/*===================
+    Footer Start
+====================*/
+footer{
+    background-color: #121B2C;
+    padding: 20px 0;
+}
+.single-item{
+    width: 28%;
+    font-family: sans-serif;
+}
+.footer-content{
+    overflow: hidden;
+}
+.footer-left{
+    width: 55%;
+    font-family: sans-serif;
+    float: left;
+    margin: 20px 0 20px;
+}
+.footer-menu p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.right-border{
+    margin: 0 12px;
+}
+.footer-content p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-right{
+    width: 40%;
+    float: right;
+}
+.footer-right img{
+    width: 100%;
+}
